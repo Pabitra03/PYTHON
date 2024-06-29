@@ -1,0 +1,7 @@
+f=open("Random_seek_tell.txt","r")
+print(f.tell())
+f.seek(6)
+print(f.tell())
+print(f.read(5))
+print(f.tell())
+f.close()

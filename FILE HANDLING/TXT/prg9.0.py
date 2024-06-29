@@ -1,0 +1,5 @@
+obj1=open("myfile9.txt","w+")
+y=obj1.write("We are doing online class is google meet")
+x=obj1.read()
+print(x)
+obj1.flush()
